@@ -46,7 +46,8 @@ public class TestFunction01 {
 		process();
 		output();
 	}
-
+	
+	// input()
 	private static void input() {
 		System.out.println("input");
 		
@@ -60,7 +61,8 @@ public class TestFunction01 {
 		eng = Integer.parseInt(li[3].trim());		// "80"
 		mat = Integer.parseInt(li[4].trim());		// "90"		
 	}
-
+	
+	//process
 	private static void process() {
 		//			  0   1   2   3   4   5   6   7   8   9   10
 		char [] g = {'F','F','F','F','F','F','D','C','B','A','A'};
@@ -71,7 +73,7 @@ public class TestFunction01 {
 		 grade = g [(int)avg / 10 ]; 
 	}
 	
-
+	//output
 	private static void output() {
 		System.out.println("output");
 		System.out.println("번호 이름 국어 영어 수학 총점 평균 등급");
