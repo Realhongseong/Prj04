@@ -47,7 +47,7 @@ public class TestFunction01 {
 		output();
 	}
 	
-	// input()
+	// input() - 메소드(Java, c#), UML(Operation), 멤버함수(C++)
 	private static void input() {
 		System.out.println("input");
 		
